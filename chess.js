@@ -41,7 +41,7 @@ function f1(fig1, fig2) {
         }
     }
 
-    return (Math.abs(index1-index2) == Math.abs(fig1.charAt(1)-fig2.charAt(1))) ? true : false;
+    return (Math.abs(index1-index2) == Math.abs(fig1.charAt(1)-fig2.charAt(1)));
 }
 
 console.log(f1('c7', 'e7'));
